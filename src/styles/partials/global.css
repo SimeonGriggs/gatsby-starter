@@ -1,0 +1,60 @@
+body {
+  /* Fixed header height */
+  @apply bg-black text-white font-light;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern";
+}
+
+.space-words {
+  word-spacing: 100vw;
+}
+
+a {
+  @apply transition-colors duration-200 ease-out;
+}
+
+.square {
+  @apply relative;
+}
+
+.square:before {
+  @apply block w-full;
+
+  content: "";
+  padding-top: 100%;
+}
+
+.square > * {
+  @apply absolute inset-0;
+}
+
+.work-image {
+  height: 70vh;
+}
+
+@screen md {
+  .work-image {
+    height: 100vh;
+  }
+}
+
+.embed-container {
+  @apply relative h-0 overflow-hidden max-w-full;
+
+  padding-bottom: 56.25%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  @apply w-full h-full absolute top-0 left-0;
+}
+
+/* * {
+  outline: 1px solid rgba(255, 0, 0, 0.5);
+} */

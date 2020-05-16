@@ -1,0 +1,15 @@
+/* purgecss start ignore */
+@import "tailwindcss/base";
+
+@import "partials/global.css";
+@import "partials/fonts.css";
+@import "partials/buttons.css";
+@import "partials/forms.css";
+@import "partials/container.css";
+@import "partials/typography.css";
+
+@import "tailwindcss/components";
+/* purgecss end ignore */
+
+@import "tailwindcss/utilities";
+@import "tailwindcss/screens";

@@ -1,0 +1,6 @@
+[build]
+  # Publish directory
+  publish = "public"
+
+  # Default build command.
+  command = "node ./create-env.js && gatsby build"

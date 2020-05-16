@@ -1,0 +1,80 @@
+.typography {
+  @apply text-xl text-gray-300;
+}
+
+.h1,
+.typography h1,
+.h2,
+.typography h2,
+.h3,
+.typography h3 {
+  @apply leading-none font-bold mt-12 mb-8 tracking-tighter;
+}
+
+.h1,
+.typography h1 {
+  @apply mt-0;
+}
+
+.typography h1,
+.typography h2,
+.typography h3 {
+  @apply text-white;
+}
+
+.h1,
+.typography h1,
+.h2,
+.typography h2 {
+  @apply text-5xl;
+}
+
+.h3,
+.typography h3 {
+  @apply text-3xl;
+}
+
+.typography a {
+  @apply text-yellow no-underline;
+}
+
+.typography a:hover {
+  @apply text-white;
+}
+
+.typography p,
+.typography ul,
+.typography ol {
+  @apply mb-8;
+}
+
+.typography blockquote {
+  @apply border-l-4 border-yellow pl-4 pr-16 my-16 text-white text-4xl;
+}
+
+.typography blockquote cite {
+  @apply block uppercase text-sm tracking-wider mt-4 font-bold;
+
+  font-style: normal;
+}
+
+.typography ul,
+.typography ol {
+  @apply pl-5;
+}
+
+.typography li {
+  @apply mb-2;
+}
+
+.typography ul li {
+  @apply list-disc;
+}
+
+.typography ol li {
+  @apply list-decimal;
+}
+
+.typography > div > *:first-child {
+  @apply mt-0;
+}

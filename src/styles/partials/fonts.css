@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "DIN";
+  font-weight: theme("fontWeight.light");
+  font-display: swap;
+  src: url("../fonts/DINPro-Light.woff2");
+}
+
+@font-face {
+  font-family: "DIN";
+  font-weight: theme("fontWeight.regular");
+  font-display: swap;
+  src: url("../fonts/DINPro-Regular.woff2");
+}
+
+@font-face {
+  font-family: "DIN";
+  font-weight: theme("fontWeight.bolder");
+  font-display: swap;
+  src: url("../fonts/DINPro-Bold.woff2");
+}

@@ -1,0 +1,71 @@
+{
+  "name": "simeongriggs-gatsby-starter",
+  "private": true,
+  "description": "Tailwind, PostCSS Includes, Inline SVG, Custom Fonts",
+  "version": "0.1.0",
+  "author": "Simeon Griggs",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@sanity/block-content-to-react": "^2.0.7",
+    "date-fns": "^2.13.0",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^7.0.2",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "framer-motion": "^1.9.1",
+    "gatsby": "^2.19.45",
+    "gatsby-image": "^2.2.44",
+    "gatsby-plugin-canonical-urls": "^2.3.1",
+    "gatsby-plugin-google-analytics": "^2.3.1",
+    "gatsby-plugin-manifest": "^2.2.48",
+    "gatsby-plugin-offline": "^3.0.41",
+    "gatsby-plugin-postcss": "^2.1.21",
+    "gatsby-plugin-react-helmet": "^3.1.24",
+    "gatsby-plugin-react-svg": "^2.1.2",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sharp": "^2.4.13",
+    "gatsby-plugin-sitemap": "^2.4.2",
+    "gatsby-source-filesystem": "^2.1.56",
+    "gatsby-source-sanity": "^5.0.6",
+    "gatsby-transformer-sharp": "^2.3.19",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.6.0",
+    "prettier-eslint-cli": "^4.7.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-country-flag": "^2.0.1",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-hook-form": "^5.6.0",
+    "react-intersection-observer": "^8.26.2",
+    "tailwindcss": "^1.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "npm run clean && gatsby develop -H 0.0.0.0",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

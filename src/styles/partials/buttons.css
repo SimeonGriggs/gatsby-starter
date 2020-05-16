@@ -1,0 +1,20 @@
+.typography .button,
+.button {
+  @apply transition-colors duration-200
+    bg-gray-800 text-white
+    border-0 cursor-pointer
+    whitespace-no-wrap inline-block
+    font-bold leading-none tracking-widest uppercase text-sm
+    py-3 px-6 rounded-full;
+}
+
+@screen md {
+  .button {
+    @apply px-10;
+  }
+}
+
+.typography .button:hover,
+.button:hover {
+  @apply bg-yellow text-black;
+}

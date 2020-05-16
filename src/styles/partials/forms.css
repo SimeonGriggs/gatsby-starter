@@ -1,0 +1,24 @@
+.input {
+  @apply bg-gray-900 text-gray-100 text-lg p-3 rounded transition-colors duration-200;
+}
+
+.checkbox {
+  @apply cursor-pointer bg-gray-900 text-gray-100 w-8 h-8 border-gray-900 border-8 rounded flex-shrink-0
+  transition-colors duration-200 appearance-none;
+}
+
+.checkbox:checked {
+  @apply bg-yellow;
+}
+
+.input:focus {
+  @apply bg-gray-800 text-white;
+}
+
+.label {
+  @apply font-bold leading-none tracking-widest uppercase text-sm mb-2 cursor-pointer;
+}
+
+.validation {
+  @apply p-3 rounded bg-red-600 text-white font-bold leading-none text-sm;
+}

@@ -1,0 +1,9 @@
+.container {
+  @apply w-full max-w-none;
+}
+
+@screen hu {
+  .container {
+    max-width: theme("screens.hu");
+  }
+}
